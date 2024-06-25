@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Bash action
-        uses: nlp4bia-bsc/textmining-common-actions/actions/get-ssh-key@v1.0.0
+        uses: nlp4bia-bsc/textmining-common-actions/actions/get-ssh-key@v1.0.1
         with:
           example_input: 'EJEMPLOOOOOOO'
