@@ -9,4 +9,4 @@ jobs:
       - name: Use Bash action
         uses: nlp4bia-bsc/textmining-common-actions/actions/get-ssh-key@v1.0.1
         with:
-          example_input: 'EJEMPLOOOOOOO'
+          server: 'EJEMPLOOOOOOO'
