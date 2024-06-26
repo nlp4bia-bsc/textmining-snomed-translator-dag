@@ -10,3 +10,4 @@ jobs:
         uses: nlp4bia-bsc/textmining-common-actions/actions/get-ssh-key@main
         with:
           server: 'EJEMPLOOOO'
+          test_secret: ${{ secrets.TEST_SECRET }}
